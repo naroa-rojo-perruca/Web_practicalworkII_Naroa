@@ -82,8 +82,8 @@
         border: none;
         height: 1px;
         background-color: #ccc;
-        margin: 20px 0;
         width: 100%;
+        margin: 20px 0 0 0;
     }
     /* Footer */
     .footer-section {
@@ -112,7 +112,7 @@
         width: 25%;
         height: 800px;
         background-color: #ffffff;
-        box-shadow: 2px 0 5px rgba(0,0,0,0.05); /* Sombra suave */
+        box-shadow: 2px 0 5px rgba(0,0,0,0.05); 
     }
     .column2{
         float: left;
@@ -123,8 +123,8 @@
     }
     /* Profile Picture */
     #profile-picture {
-        margin: 30px auto;  /* Margen arriba/abajo y centrado lateral */
-        max-width: 70%;     /* Tamaño controlado */
+        margin: 30px auto;  
+        max-width: 70%;    
         height: auto;
         border-radius: 10px;
         border-radius: 10px;
@@ -185,6 +185,55 @@
         border-radius: 10px;
         margin: 10px;
     }
+
+
+
+/*SPECIFIC FOR CONTACT PAGE*/
+.contact-content {
+    min-height: 80%; 
+    display: flex;
+    justify-content: center; 
+    align-items: center;     
+    background-color: #efefef;
+    padding: 40px 20px;
+}
+/* Form */
+.contact-form {
+    background-color: #ffffff;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    min-width: 30%;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    height: auto;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+button{
+    background-color: #f3b6bf;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+}
+#name{
+    width: 100%;
+    height: 30px;
+}
+#email{
+    width: 100%;
+    height: 30px;
+}
+#message{
+    width: 100%;
+    height: 30px;
+}
+#phone{
+    width: 100%;
+    height: 30px;
+}
 
 
 
