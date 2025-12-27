@@ -235,8 +235,30 @@ button{
     height: 30px;
 }
 
+/*SPECIFIC FOR DEGREE PAGE*/
+.degree-table {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+table{
+    width: 100%;
+    text-align: left;
+    margin-right: 20px;
+    margin-left: 30px;
+    
+}
+.degree-container{
+    background-color: #ffdfe3;
+    width: 80%;
+    border-radius: 10px;
+    padding: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    
 
-
+}
 
    
     
