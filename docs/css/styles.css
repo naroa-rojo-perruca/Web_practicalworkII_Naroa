@@ -85,6 +85,14 @@
         width: 100%;
         margin: 20px 0 0 0;
     }
+    .box-text{
+        background-color: #efeeee;
+        padding: 20px;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        margin: 20px;
+        max-width: 80%;
+    }
+
     /* Footer */
     .footer-section {
         clear: both;
@@ -289,8 +297,43 @@ table{
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     margin: 20px;
 }
+                    
+/*SPECIFIC FOR TOPIC PAGE*/
+.topic-container-intro{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    margin-top: 30px;
+
+}
+.topic-column1{
+    width: 75%;
+}
+.topic-images{
+    margin-top: 40 px;
+    width: 20%
+}
+.topic-container-body{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 30px;
+}
+
+.algorithms-box{
+    background-color: #ffdfe3;
+    width: 90%;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 20px;
+    text-align: center; 
+}
 
 
    
-    
+
 
