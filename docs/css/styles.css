@@ -274,7 +274,8 @@ table{
 
 }
 /*SPECIFIC FOR FCE PAGE*/
-.all-units{
+
+.fce-content{
     display: flex;
     flex-direction: column;
     align-items: center;
