@@ -19,7 +19,7 @@ The website created follows the following structure:
 
 * **Topic (topic.html):** includes information on a topic researched, in this case: AI on Spotify.
 
---
+---
 
 ## Description of the repository in Git Hub and the structure of the project:
 Git Hub was used to save different versions of the project and record the process of it. 
@@ -34,7 +34,7 @@ It includes:
     * **index.html**
     * **Public folder** with all the rest of the pages: about.html, contact.html, degree.html, fce.html, net.html and topic.html.
  
---
+---
 
 ## Software description: 
 As mentioned before, the languages used were HTML and CSS. And, as it can be appreciated there is one css file(styles.css) and a html file for every page. 
