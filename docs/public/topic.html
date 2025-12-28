@@ -1,132 +1,140 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Topic</title>
-     <link rel="stylesheet" type="text/css" href="../css/styles.css">
-    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Topic</title>
+        <link rel="stylesheet" type="text/css" href="../css/styles.css">
+        <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
 
-</head>
-<body>
-    <header class="container">
-        <div class="header-content" >
-        <h1>AI on Spotify</h1>
-        </div>
-        
-    </header>
-    <ul>
-        <li><a href="../index.html">Home</a></li>
-        <li><a href="about.html">About Me</a></li>
-        <li><a href="contact.html">Contact Me</a></li>
-        <li><a href="degree.html">Degree</a></li>
-        <li><a href="net.html">Net</a></li>
-        <li><a href="topic.html">Topic</a></li>
-       
-    </ul>
-    <hr>
-    <h2 style="text-align: center;">AI on Spotify:</h2>
-    <div class="topic-container-intro">
-        <div class="topic-column1">
-            <div class="box-text">
-                <h2>Introduction:</h2>
-                <p>
-                I choose this topic given that I love listening to music on Spotify. We can all agree that this platform does an amazing job recommending new music with playlist such as: the daily mix or the discover weekly, which suits perfectly our music taste. Moreover, Spotify has included recently a new feature: an AI DJ. All of this, let me to wonder how does this recommendation system work.<br> <br>
-                Clearly, one of the main objectives of this company is to personalize the experience for each user. This recommendation system is based on data-driven algorithms, collaborative filtering, natural language processing and sonic profiles. Following these algorithms, the Spotify’s AI ecosystem can predict the next song a user may want to listen to.</p>
-            
+    </head>
+    <body>
+        <header class="container">
+            <div class="header-content" >
+            <h1>AI on Spotify</h1>
             </div>
-
-        </div>
+            
+        </header>
+        <ul>
+            <li><a href="../index.html">Home</a></li>
+            <li><a href="about.html">About Me</a></li>
+            <li><a href="contact.html">Contact Me</a></li>
+            <li><a href="degree.html">Degree</a></li>
+            <li><a href="net.html">Net</a></li>
+            <li><a href="topic.html">Topic</a></li>
         
-        <img src="../images/spotify_logo.png" class="topic-images">
-    </div>
-    <hr>
-    <div class="topic-container-intro">
-        <img src="../images/data_collection_icon.png" class="topic-images">
-        <div class="topic-column1">
-            <div class="box-text">
-                <h2>What data do these algorithms use?</h2>
-                <p>
-                    -	Liked songs. <br>
-                    -	Saved songs. <br>
-                    -	All the songs listened and listen counts. <br>
-                    -	Adding a song to a playlist.<br>
-                    -	Skipped songs. <br>
-                    -	Blogs. <br>
-                    -	Reviews. <br>
-                    -	Lyrics. <br>
-                    -	And much more. <br>
+        </ul>
+        <hr>
+        <h2 style="text-align: center;">AI on Spotify:</h2>
+        <div class="topic-container-intro">
+            <div class="topic-column1">
+                <div class="box-text">
+                    <h2>Introduction:</h2>
+                    <p>
+                    I choose this topic given that I love listening to music on Spotify. We can all agree that this platform does an amazing job recommending new music with playlist such as: the daily mix or the discover weekly, which suits perfectly our music taste. Moreover, Spotify has included recently a new feature: an AI DJ. All of this, let me to wonder how does this recommendation system work.<br> <br>
+                    Clearly, one of the main objectives of this company is to personalize the experience for each user. This recommendation system is based on data-driven algorithms, collaborative filtering, natural language processing and sonic profiles. Following these algorithms, the Spotify’s AI ecosystem can predict the next song a user may want to listen to.</p>
+                
+                </div>
+
+            </div>
+            
+            <img src="../images/spotify_logo.png" class="topic-images">
+        </div>
+        <hr>
+        <div class="topic-container-intro">
+            <img src="../images/data_collection_icon.png" class="topic-images">
+            <div class="topic-column1">
+                <div class="box-text">
+                    <h2>What data do these algorithms use?</h2>
+                    <p>
+                        -	Liked songs. <br>
+                        -	Saved songs. <br>
+                        -	All the songs listened and listen counts. <br>
+                        -	Adding a song to a playlist.<br>
+                        -	Skipped songs. <br>
+                        -	Blogs. <br>
+                        -	Reviews. <br>
+                        -	Lyrics. <br>
+                        -	And much more. <br>
+                    </p>
+                
+                </div>
+
+            </div>
+            
+        </div>
+        <hr>
+
+    
+        
+        <div class="topic-container-body">
+
+            <h2 style="text-align: center;">How does it use these information to recommend?</h2>
+            <div class="algorithms-box">
+                <p >COLLABORATIVE FILTERING:</p>
+                <p>Not only does Spotify use this kind of algorithms, but also other platforms such as Amazon. Spotify analyses all the data collected and tries to identify similar music tastes to recommend songs that other people with the same music taste listens to. For example, person A may like songs 1, 2 and 3, while person B also listens to songs 1, 2 and 3. What Spotify does now, is  recommend song 4, which person B really, likes to person A who has never heard it before. That is collaborative filtering, identifying shared music tastes.
+                    <br><br>
+                    The data collected is represented in a huge matrix, each row being a user and each column a song. If one row is similar to another, it would mean that those two users have the same music taste. Now, if a row has a song that the other does not, Spotify recommends that song. However, the problem with this algorithm is that popular songs are more recommended than unpopular ones, given that the last ones have 0 listens, which makes it impossible for the algorithm to recommend them. That is the reason why  other algorithms are used, such as: Natural Language Processing (NPL).
                 </p>
+            </div>
+
+            <div class="algorithms-box">
+                <p>Natural Language Processing (NPL)</p>
+                <p>Spotify uses NPL to analyse not only the song titles, lyrics or playlist descriptions, but also blogs on the internet, reviews or articles. In other words, social content related to the song and the artist. It categorizes the songs based on the words used to describe them. By doing this, a song that has 0 listens but the algorithm has identified them in the same category as another popular song, will be recommended to users with that music taste.</p>
+
+            </div>
+
+            <div class="algorithms-box">
+                <p>SONIC PROFILES</p>
+                <p>
+                    This last algorithm, unlike the other two,  has to do with the music itself. Using AI, Spotify analyses directly the features of the audio of a song. To do so, it uses convolutional neural networks (CNNs) which identifies the features of a song like the tempo, loudness, melody or rhythm. Then, it compares these features individually to other songs to recognize songs that are similar to the ones a user listens to.
+                </p>
+            </div>
+        </div>
+        <hr>
+
+        
+        <h2 style="text-align: center;">Image:</h2>
+        <div class="topic-container-intro">
+            <img src="../images/collaborative-filtering.jpg" class="topic-images">
+            <div class="topic-column1">
+                <div class="box-text">
+                    <p>In this image you can see how collaborative filtering works. However, instead of buy, it should be listen. One user lisens to songs A and B. While, another user listens to songs A, B and C. The algorithm, then, would recommend song C to the first user.</p>
+                </div>
+            </div>
+        </div>
             
-            </div>
 
-        </div>
-        
-    </div>
-    <hr>
 
-   
-    
-    <div class="topic-container-body">
+        <hr>
 
-        <h2 style="text-align: center;">How does it use these information to recommend?</h2>
-        <div class="algorithms-box">
-            <p >COLLABORATIVE FILTERING:</p>
-            <p>Not only does Spotify use this kind of algorithms, but also other platforms such as Amazon. Spotify analyses all the data collected and tries to identify similar music tastes to recommend songs that other people with the same music taste listens to. For example, person A may like songs 1, 2 and 3, while person B also listens to songs 1, 2 and 3. What Spotify does now, is  recommend song 4, which person B really, likes to person A who has never heard it before. That is collaborative filtering, identifying shared music tastes.
-                <br><br>
-                The data collected is represented in a huge matrix, each row being a user and each column a song. If one row is similar to another, it would mean that those two users have the same music taste. Now, if a row has a song that the other does not, Spotify recommends that song. However, the problem with this algorithm is that popular songs are more recommended than unpopular ones, given that the last ones have 0 listens, which makes it impossible for the algorithm to recommend them. That is the reason why  other algorithms are used, such as: Natural Language Processing (NPL).
-            </p>
-        </div>
+        <h2 style="text-align: center;">Conclusion:</h2>
 
-        <div class="algorithms-box">
-            <p>Natural Language Processing (NPL)</p>
-            <p>Spotify uses NPL to analyse not only the song titles, lyrics or playlist descriptions, but also blogs on the internet, reviews or articles. In other words, social content related to the song and the artist. It categorizes the songs based on the words used to describe them. By doing this, a song that has 0 listens but the algorithm has identified them in the same category as another popular song, will be recommended to users with that music taste.</p>
-
-        </div>
-
-        <div class="algorithms-box">
-            <p>SONIC PROFILES</p>
-            <p>
-                This last algorithm, unlike the other two,  has to do with the music itself. Using AI, Spotify analyses directly the features of the audio of a song. To do so, it uses convolutional neural networks (CNNs) which identifies the features of a song like the tempo, loudness, melody or rhythm. Then, it compares these features individually to other songs to recognize songs that are similar to the ones a user listens to.
-            </p>
-        </div>
-    </div>
-    <hr>
-
-    
-    <h2 style="text-align: center;">Image:</h2>
-    <div class="topic-container-intro">
-        <img src="../images/collaborative-filtering.jpg" class="topic-images">
-        <div class="topic-column1">
+        <div class="topic-container-intro">
             <div class="box-text">
-                <p>In this image you can see how collaborative filtering works. However, instead of buy, it should be listen. One user lisens to songs A and B. While, another user listens to songs A, B and C. The algorithm, then, would recommend song C to the first user.</p>
+                <p>By applying these main algorithms, the AI can predict which song the user may like, keeping in mind new artist and popular ones. In my opinion, is fascinating to know how the recommendation system works, given that it really does a great job. I love to use the AI DJ as well, when I do not know what to listen to. Features such as that one, are what makes me choose Spotify as my main music platform instead of others and I hope that these systems keep developing. </p>
+
             </div>
         </div>
-    </div>
+
+        <hr>
         
+        <p> Resources: </p>
+        <p>
+            - <a href="https://medium.com/qmind-ai/decoding-your-music-taste-spotifys-mathematical-model-4fb0e007cbe">https://medium.com/qmind-ai/decoding-your-music-taste-spotifys-mathematical-model-4fb0e007cbe</a><br>
+            - <a href="https://www.udit.es/spotify-y-las-matematicas-asi-es-la-formula-de-sus-recomendaciones-musicales/">https://www.udit.es/spotify-y-las-matematicas-asi-es-la-formula-de-sus-recomendaciones-musicales/</a><br>
+            - <a href="https://omnisearch.ai/blog/spotify-unwrapped#:~:text=Spotify%20uses%20convolutional%20neural%20networks,Malfunctions%20in%20Spotify's%20AI%20Ecosystem">https://omnisearch.ai/blog/spotify-unwrapped#:~:text=Spotify%20uses%20convolutional%20neural%20networks,Malfunctions%20in%20Spotify's%20AI%20Ecosystem</a><br>
+            - (minutes 1:36 - 4:58) <a href="https://www.youtube.com/watch?v=BE46nArI5TA">https://www.youtube.com/watch?v=BE46nArI5TA </a> 
 
+        </p>
 
-    <hr>
+        <footer class="footer-section">
+            <p>©Copy; 2025 All Rights Reserved. Design by Naroa Rojo</p>
+        </footer>
+        
+    </body>
+</html>
 
-    <h2 style="text-align: center;">Conclusion:</h2>
-
-    <div class="topic-container-intro">
-        <div class="box-text">
-            <p>By applying these main algorithms, the AI can predict which song the user may like, keeping in mind new artist and popular ones. In my opinion, is fascinating to know how the recommendation system works, given that it really does a great job. I love to use the AI DJ as well, when I do not know what to listen to. Features such as that one, are what makes me choose Spotify as my main music platform instead of others and I hope that these systems keep developing. </p>
-
-        </div>
-    </div>
-
-    <hr>
-    
-    <p> Resources: </p>
-    <p>
-        - <a href="https://medium.com/qmind-ai/decoding-your-music-taste-spotifys-mathematical-model-4fb0e007cbe">https://medium.com/qmind-ai/decoding-your-music-taste-spotifys-mathematical-model-4fb0e007cbe</a><br>
-        - <a href="https://www.udit.es/spotify-y-las-matematicas-asi-es-la-formula-de-sus-recomendaciones-musicales/">https://www.udit.es/spotify-y-las-matematicas-asi-es-la-formula-de-sus-recomendaciones-musicales/</a><br>
-        - <a href="https://omnisearch.ai/blog/spotify-unwrapped#:~:text=Spotify%20uses%20convolutional%20neural%20networks,Malfunctions%20in%20Spotify's%20AI%20Ecosystem">https://omnisearch.ai/blog/spotify-unwrapped#:~:text=Spotify%20uses%20convolutional%20neural%20networks,Malfunctions%20in%20Spotify's%20AI%20Ecosystem</a><br>
-        - (minutes 1:36 - 4:58) <a href="https://www.youtube.com/watch?v=BE46nArI5TA">https://www.youtube.com/watch?v=BE46nArI5TA </a> 
-
-    </p>
    
 
 
