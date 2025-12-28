@@ -85,7 +85,8 @@
     }
     /*Links*/
     a{
-        color:#504f4f
+        color:#373737;
+        font-weight: bold;
     }
 
     /* Footer */
