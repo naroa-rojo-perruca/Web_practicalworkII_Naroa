@@ -75,7 +75,7 @@ To create the menu for every page I changed the settings of the unorganized list
 * **Git Hub**
 When I first published my website I could only see the Readme file when I clicked on the link. The problem was that I had to select the branch main and the folder docs. This way, Git Hub would find the index.html file.
 
---
+---
 
 
 ## Conclusion:
