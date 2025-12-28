@@ -2,6 +2,9 @@
 
 The aim of this work is to showcase everything that I learned in this subject specifically in the matter of HTML and CSS, as well as on GitHub. It consists of a website with different pages, a repository in GitHub, where the different versions of the work are collected and this document that will describe my work on detail. The tools used for this project were: GitHub and Visual Studio Code. While the coding languages used were HTML and CSS.
 
+## The URL to the website:
+https://naroa-rojo-perruca.github.io/Web_practicalworkII_Naroa/
+
 ---
 
 ## Description of the website
