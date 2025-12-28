@@ -6,8 +6,8 @@
         font-family: 'Open Sans', sans-serif;
         margin: 0;
         background-color: rgb(255, 255, 255);
-        
         align-items: center;
+        
         
     }
     .content{
@@ -259,6 +259,37 @@ table{
     
 
 }
+/*SPECIFIC FOR FCE PAGE*/
+.all-units{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    justify-content: center;
+    
+}
+.container-units{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 100%;
+    justify-content: center;
+}
+.block-container{
+    background-color: #ffdfe3;
+    width: 30%;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 20px;
+    height: 300px;
+}
+.box-text{
+    background-color: #efeeee;
+    padding: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin: 20px;
+}
+
 
    
     
